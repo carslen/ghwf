@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-30T14:28:30.784662416Z"
+    description: A Helm chart for Kubernetes
+    digest: 1021336a2c7c4e7709a49a8ad6b63bc94ebb2c4639f735156c1e6bbba0e1e18c
+    name: test
+    type: application
+    urls:
+    - https://github.com/carslen/ghwf/releases/download/test-0.1.6/test-0.1.6.tgz
+    version: 0.1.6
+generated: "2022-09-30T14:28:30.784668516Z"
