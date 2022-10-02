@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   do-no-use:
   - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2022-10-02T15:51:56.086799603Z"
+    description: A Helm chart for Kubernetes and helm chart release testing
+    digest: 133a8551b50cba5394487cd3c485c42f8d1faa1cbdaaa1433fdcd3695812995c
+    name: do-no-use
+    type: application
+    urls:
+    - https://github.com/carslen/ghwf/releases/download/do-no-use-0.1.1/do-no-use-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-10-02T10:18:12.709609217Z"
     description: A Helm chart for Kubernetes and helm chart release testing
@@ -112,4 +122,4 @@ entries:
     urls:
     - https://github.com/carslen/ghwf/releases/download/test-0.1.6/test-0.1.6.tgz
     version: 0.1.6
-generated: "2022-10-02T10:18:12.709647518Z"
+generated: "2022-10-02T15:51:56.086825703Z"
