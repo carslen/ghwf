@@ -23,6 +23,16 @@ entries:
     version: 0.1.0
   test:
   - apiVersion: v2
+    appVersion: 1.19.1
+    created: "2022-11-03T09:58:58.525813868Z"
+    description: A Helm chart for Kubernetes - nginx 1.19
+    digest: f918128e4193b24e3030e17df6071f015d576e63630751ad8314920cd8ee0a06
+    name: test
+    type: application
+    urls:
+    - https://github.com/carslen/ghwf/releases/download/test-0.2.4/test-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
     appVersion: 1.19.0
     created: "2022-09-30T19:54:02.37010808Z"
     description: A Helm chart for Kubernetes - nginx 1.19
@@ -122,4 +132,4 @@ entries:
     urls:
     - https://github.com/carslen/ghwf/releases/download/test-0.1.6/test-0.1.6.tgz
     version: 0.1.6
-generated: "2022-10-02T15:51:56.086825703Z"
+generated: "2022-11-03T09:58:58.525945468Z"
