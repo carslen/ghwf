@@ -23,5 +23,5 @@ jobs:
         go-version: 1.18
 
     - name: Run
-      run: go run main.go
+      run: go run .github/scripts/main.go
       
