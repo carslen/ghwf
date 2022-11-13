@@ -4,6 +4,8 @@ import "os"
 import "fmt"
 
 func main() {
-	fmt.Println(*os.Getwd())
-	fmt.Println(*os.ReadDir("."))
+	cwd, _ := os.Getwd()
+	dirs, _ := os.ReadDir(".")
+	fmt.Println(cwd)
+	fmt.Println(dirs)
 }
