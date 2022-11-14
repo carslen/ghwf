@@ -1,9 +1,8 @@
-# This workflow will build a golang project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
-
-name: Go
+name: Build DEV Helm Repository
 
 on:
+  schedule:
+    - cron: "30 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,12 +10,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Set up Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.18
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.18
 
-    - name: Run
-      run: go run src/helm_repo/main.go
+      - name: Run
+        run: go run src/helmRepoIndex/main.go
+
+      - name: Publish changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add charts/dev/index.yaml
+          git commit -m "chore: update dev helm repo index"
+          git push
