@@ -2,6 +2,8 @@ name: Release Chart
 
 on:
   push:
+    paths:
+      - 'charts/**'
     branches:
       - main
 
