@@ -13,6 +13,14 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - remove check `StatusCode == 200` from previous branch check
 - Refactor func `downloadProductHelmRepoIndex` and error handling
 
+## [0.1.4] - 2022-12-02
+
+### Added
+
+- ❤️❤️❤️
+- kjg
+- öj
+
 ## [0.1.3] - 2022-12-02
 
 ### Added
