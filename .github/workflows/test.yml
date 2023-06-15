@@ -9,7 +9,7 @@ jobs:
       - id: sets-a-secret
         name: Generate, mask, and output a secret
         run: |
-          files=$(find . -type f -name "*.md")
+          files=$((find . -type f -name "*.md"))
           echo "secret-number=$files" >> "$GITHUB_OUTPUT"
       - name: Use that secret output (protected by a mask)
         run: |
