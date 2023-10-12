@@ -3,7 +3,7 @@ module helmRepoIndex
 go 1.21
 
 require (
-	github.com/google/go-github/v48 v48.2.0
+	github.com/google/go-github/v49 v49.1.0
 	golang.org/x/oauth2 v0.13.0
 	helm.sh/helm/v3 v3.13.1
 )
