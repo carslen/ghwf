@@ -1,6 +1,6 @@
 /********************************************************************************
- * Copyright (c) 2021,2022 Mercedes-Benz Tech Innovation Gmbh
- * Copyright (c) 2021,2022 Contributors to the Eclipse Foundation
+ * Copyright (c) 2021,2022, 2023 Mercedes-Benz Tech Innovation Gmbh
+ * Copyright (c) 2021,2022,2023 Contributors to the Eclipse Foundation
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information regarding copyright ownership.
@@ -23,15 +23,16 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/google/go-github/v48/github"
-	"golang.org/x/oauth2"
-	"helm.sh/helm/v3/pkg/repo"
 	"io"
 	"log"
 	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/google/go-github/v48/github"
+	"golang.org/x/oauth2"
+	"helm.sh/helm/v3/pkg/repo"
 )
 
 func getAuthenticatedClient(ctx context.Context) *github.Client {
