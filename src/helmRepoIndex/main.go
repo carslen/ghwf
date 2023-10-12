@@ -90,7 +90,7 @@ func buildHelmRepoIndex(indexFile string, mergeIndexFile string) {
 }
 
 const centralHelmIndex = "../../charts/dev/index.yaml"
-const gitOwner = "catenax-ng"
+const gitOwner = "catenax-ng2"
 
 func main() {
 	ctx := context.Background()
