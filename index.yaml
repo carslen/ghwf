@@ -21,6 +21,17 @@ entries:
     urls:
     - https://github.com/carslen/ghwf/releases/download/do-no-use-0.1.0/do-no-use-0.1.0.tgz
     version: 0.1.0
+  ingress-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-14T08:27:20.04156413Z"
+    description: A Helm chart for Kubernetes
+    digest: d1cb3a7f3e9f67641eedaa84b94b8d24d99756af769828f772d1bf77af6c33ba
+    name: ingress-test
+    type: application
+    urls:
+    - https://github.com/carslen/ghwf/releases/download/ingress-test-0.1.0/ingress-test-0.1.0.tgz
+    version: 0.1.0
   test:
   - apiVersion: v2
     appVersion: 1.19.4
@@ -162,4 +173,4 @@ entries:
     urls:
     - https://github.com/carslen/ghwf/releases/download/test-0.1.6/test-0.1.6.tgz
     version: 0.1.6
-generated: "2022-11-03T10:10:56.148948789Z"
+generated: "2023-11-14T08:27:20.041627829Z"
