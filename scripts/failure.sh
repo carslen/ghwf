@@ -3,7 +3,7 @@ set -e
 
 echo "This script will fail"
 
-images=("alpine" "ubuntu")
+images=("alpine" "gibtsnicht:1.12.123")
 
 for image in "${images[@]}"; do
   echo "Pull $image"
